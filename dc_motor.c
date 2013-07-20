@@ -4,7 +4,7 @@
  *
  * This library is compatible STM32
  *
- * BSD licensed
+ * Licensed : GPLv3
  *
  * Author: Tarek Bouchkati   <tarekbouchkati@gmail.com>
  */

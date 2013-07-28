@@ -43,7 +43,6 @@ static int getWidthFromSpeedPercent(int speedPercent) {
 /*===========================================================================*/
 
 void DCMotorConfig(DCMotor *dcmotor) {
-	//PWMConfig pwm_cfg = _pwmcfg_model_;
 	/* create the channel configuration */
 	PWMChannelConfig chcfg = {PWM_OUTPUT_ACTIVE_HIGH, NULL};
 	pwm_cfg.channels[dcmotor->pwm_channel] = chcfg;
